@@ -1,0 +1,95 @@
+.mybackground{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle, #80cbfa, #3da3e2, #1686C7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#head{
+    margin-bottom: 29px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    text-shadow: 
+      -2px -2px 0 #000,  
+      2px -2px 0 #000,  
+      -2px 2px 0 #000,  
+      2px 2px 0 #000;
+}
+
+.tweet{
+    width: 600px;
+    height: 300px;
+    background: white;
+    border-radius: 7%;
+    position: relative;
+}
+
+#timage{
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    margin-top: 5px;
+}
+.inner{
+    display: flex;
+
+}
+
+#pfp{
+    width: 60px;
+    border-radius: 50%;
+}
+
+#name{
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#uname{
+    color: slategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:300;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.text{
+    margin: 0 25px;
+}
+.ptext{
+    color: #000;
+    font-family:sans-serif;
+    opacity: 0;
+    transition: opacity 2.5s ease; 
+}
+.fade{
+    opacity: 1;
+}
+
+.btn{
+    padding: 18px;
+    border-radius: 5%;
+    font-size: medium;
+    background: #3da3e2;
+    color: whitesmoke;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-bottom {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
