@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: radial-gradient(circle, #2b419b, #2b107a, #060426);
+}
+
+.navbar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 55px;
+    padding: 5px;
+}
+
+#head{
+    margin-left: 80px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#search{
+    padding: 5px;
+    margin-right: 50px;
+    background-color: #dae1ff;
+    border-radius: 7%;
+}
+
+.container{
+    background-color: blanchedalmond;
+    width: 75%;
+    min-height: 72vh;
+    margin: 25px auto;
+    border-radius: 12px;
+    display: flex;
+    padding: 12px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.songlist{
+    display: flex;
+    flex-direction: column;
+}
+.songlist h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 183%;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem img{
+    width: 43px;
+    height: 43px;
+    margin: 0 20px;
+    border-radius: 50px;
+    }
+    .timestamp{
+        margin: 0 20px;
+    }
+    .timestamp i{
+        margin: 0 10px;
+        cursor: pointer;
+    
+    }
+
+    .songInfo{
+        position: absolute;
+        left: 10vw;
+        margin-top: 25px;
+    }
+    .songInfo img{
+        opacity: 0;
+        transition: opacity 0.7s ease-in;
+    }
+    .songInfo span{
+        margin: 0 6px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .player{
+        position: sticky;
+        height: 100px;
+        background-color: black;
+        color: white;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #myprogressbar{
+        cursor: pointer;
+    }
+    .icons{
+        margin-top: 23px;
+    }
+    .icons i{
+        cursor: pointer;
+    }
+    #myprogressbar{
+        width: 80vw;
+    }

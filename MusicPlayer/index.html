@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="logo.png" alt="logo" id="logo" />
+      <span id="head">My Spotify</span>
+      <input type="text" name="text" id="search" placeholder="search..." />
+    </nav>
+    <div class="container">
+      <div class="songlist">
+        <h1>My Lovely PlayList</h1>
+        <div>
+          <div class="songitem">
+            <img src="covers/1.jpg" alt="cover1" />
+            <span class="songname">London Thumakda</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="1"
+                  class="fa-solid songPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/2.jpg" alt="cover1" />
+            <span class="songname">Kamariyaa</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="2"
+                  class="fa-solid songPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/3.jpg" alt="cover1" />
+            <span class="songname">Badtameez Dil</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="3"
+                  class="fa-solid songPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/4.jpg" alt="cover1" />
+            <span class="songname">Dil Chori</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="4"
+                  class="fa-solid songPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/5.jpg" alt="cover1" />
+            <span class="songname">Mitran de junction</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="5"
+                  class="fa-solid songPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/6.jpg" alt="cover1" />
+            <span class="songname">Label Black</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="6"
+                  class="fa-solid songPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/7.jpg" alt="cover1" />
+            <span class="songname">Teeje Week</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="7"
+                  class="fa-solid songPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/8.jpg" alt="cover1" />
+            <span class="songname">Laden</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:34<i
+                  id="8"
+                  class="fa-solid songPlay fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="player">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+           <i class="fa-solid fa-backward fa-2xl" id="previous" ></i>
+           <i class="fa-solid fa-circle-play fa-2xl" id="masterPlay"></i>
+           <i class="fa-solid fa-forward fa-2xl" id="next"></i>
+
+        </div>
+        <div class="songInfo">
+           <img src="playing.gif" width="42px" alt="" id="gif"> <span id="mastersong">Warriyo - mortal [NCS release]</span>
+        </div>
+   </div>
+  </body>
+  <script src="app.js"></script>
+  <script
+    src="https://kit.fontawesome.com/e0ebd8991c.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
